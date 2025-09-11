@@ -1,0 +1,31 @@
+{
+  "name": "webhook-proxy-ui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "electron-local": "electron ./main-local.cjs",
+    "electron-dist": "electron ./main-dist.cjs"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "autoprefixer": "^10.4.21",
+    "bootstrap": "^5.3.8",
+    "cross-env": "^10.0.0",
+    "pinia": "^2.1.7",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13",
+    "vue": "^3.5.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.8.3",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "create-vue": "^3.18.0",
+    "electron": "^38.0.0",
+    "vite": "^5.1.6"
+  }
+}

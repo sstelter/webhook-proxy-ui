@@ -766,14 +766,11 @@
         </div>
         <div style="margin-top: 20px;" x-show="showManage">
           <nav>
-            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-              <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Enterprise Webhooks</a>
-              <a class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Organization Webhooks</a>
-              <a class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Repository Webhooks</a>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-link active" id="nav-enterprise-webhook-tab" data-bs-toggle="tab" href="#nav-enterprise-webhook" role="tab" aria-controls="nav-enterprise-webhook" aria-selected="true">Enterprise Webhooks</a><a class="nav-link" id="nav-org-webhook-tab" data-bs-toggle="tab" href="#nav-org-webhook" role="tab" aria-controls="nav-org-webhook" aria-selected="false">Organization Webhooks</a><a class="nav-link" id="nav-repo-webhook-tab" data-bs-toggle="tab" href="#nav-repo-webhook" role="tab" aria-controls="nav-repo-webhook" aria-selected="false">Repository Webhooks</a>
             </div>
           </nav>
           <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="tab-pane fade show active" id="nav-enterprise-webhook" role="tabpanel" aria-labelledby="nav-enterprise-webhook-tab">
               <table class="table"> 
                 <tbody> 
                   <tr class="table-secondary"> 
@@ -812,7 +809,7 @@
                 </tbody>                 
               </table>
             </div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div class="tab-pane fade" id="nav-org-webhook" role="tabpanel" aria-labelledby="nav-org-webhook-tab">
               <table class="table"> 
                 <thead> 
                   <tr class="table-secondary"> 
@@ -895,7 +892,7 @@
                 </tbody>                 
               </table>
             </div>
-            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <div class="tab-pane fade" id="nav-repo-webhook" role="tabpanel" aria-labelledby="nav-repo-webhook-tab">
               <div class="align-items-end d-flex justify-content-end">
                 <p class="fw-bold">Repository:</p>
                 <nav class="navbar navbar-light">
